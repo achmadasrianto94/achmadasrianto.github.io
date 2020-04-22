@@ -1,0 +1,130 @@
+/*
+    Background Color : #000113
+    title Color : #0099CC
+    Text color : #0099CC
+    Text dark Color :#006666
+    Table heading color : #003366
+    Table Alternate Color : #003366
+*/
+
+body {
+    background-color: #020108;
+    color: #0099cc;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px;
+    margin: 0;
+}
+
+.tm-container {
+    max-width: 640;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tm-text-white {
+    color: white;
+}
+
+.tm-page-head-container {
+    text-align: center;
+}
+
+.tm-page-header {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+.tm-main-content {
+    color: white;
+}
+
+#tm-intro-img {
+    background-image: url(../web1/img/img.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 425px;
+}
+
+.tm-section-header {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: center;
+}
+
+p.tm-p-header {
+    background-color: teal;
+    height: 50px;
+}
+
+.tm-section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.tm-section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+
+p.tm-page-header {
+    background-color: teal;
+    height: 50px;
+}
+
+p:nth-child(odd) {
+    background-color: teal;
+}
+
+p:nth-last-child(odd) {
+    background-color: teal;
+}
+
+p:nth-last-of-type(odd) {
+    background-color: teal;
+}
+
+.tm-mb-o {
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figcaption span {
+    display: block;
+    color: teal;
+    font-size: 18px;
+}
